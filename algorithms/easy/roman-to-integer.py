@@ -31,3 +31,5 @@ class Solution(object):
     
 # https://leetcode.com/problems/roman-to-integer/submissions/933527551/
 # Stupid Error!
+# Time complexity: O(n)
+# Space complexity: O(1)
