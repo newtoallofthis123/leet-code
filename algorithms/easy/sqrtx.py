@@ -3,7 +3,7 @@ class Solution(object):
         """
         :type x: int
         :rtype: int
-        """
+        # """
         import math
         if x <= pow(2, 31) - 1:
             # Use higher precision to avoid rounding errors
