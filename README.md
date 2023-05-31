@@ -2,10 +2,10 @@
 
 Finally Taking on the Behemoth that is LeetCode 
 
-Solved till now:
-- [x] Add Binary
-- [x] Longest Common Prefix
-- [x] Merge Two Sorted Lists
-- [x] Palindrome Number
-- [x] Roman to Integer
-- [x] Sqrt(x)
+I have been reading into data structures and algorithms for quite some time now and I finally decided to try leet code problems.
+
+All the problems are compiled here for now.
+
+Will later make a tracker for them.
+
+## Solved Till Now: **16** 
