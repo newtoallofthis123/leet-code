@@ -6,8 +6,8 @@ import time
 console = Console()
 prompt = Prompt()
 
-console.print("LeetCode Commit v.1.0", style="bold green", justify="center")
-console.print("Author: [bold red]@noobscience[/bold red]", justify="center")
+console.print("LeetCode Commit v.1.0", style="bold green")
+console.print("Author: [bold red]@noobscience[/bold red]")
 
 def get_file_count():
     count = 0
@@ -15,6 +15,11 @@ def get_file_count():
         for file in files:
             if file.endswith(".py"):
                 count += 1
+    with open("README.md", "r") as f:
+        raw = f.read().split("**")
+        raw[1] = str(count)
+        with open("README.md", "w") as f:
+            f.write("**".join(raw))
     return count
 
 def get_line_count():
@@ -47,7 +52,6 @@ if commit_choice == "y":
         console.print("Code not pushed!", style="bold red")
         with console.status("[bold red]Exiting...[/bold red]", spinner="aesthetic") as status:
             time.sleep(1)
-    console.print("Code committed successfully!", style="bold green")
 else:
     console.print("Code not pushed!", style="bold red")
     with console.status("[bold red]Exiting...[/bold red]", spinner="aesthetic") as status:
