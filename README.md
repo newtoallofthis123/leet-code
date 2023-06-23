@@ -8,4 +8,4 @@ All the problems are compiled here for now.
 
 Will later make a tracker for them.
 
-## Solved Till Now: **52** 
+## Solved Till Now: **60** 
