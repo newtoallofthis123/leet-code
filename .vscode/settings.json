@@ -1,6 +1,5 @@
 {
     "python.analysis.typeCheckingMode": "off",
-    "cSpell.words": [
-        "AAABABB"
-    ]
+    "cmake.sourceDirectory": "/home/noobscience/Projects/leet-code/cpp",
+    "cmake.cmakePath": "cmake",
 }
