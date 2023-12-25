@@ -6,7 +6,7 @@ func reverseVowels(s string) string {
 	sVowels := []byte{}
 
 	for _, v := range s {
-		if containsInArr(vowels, byte(v)) {
+		if containsByteInArr(vowels, byte(v)) {
 			sVowels = append(sVowels, byte(v))
 		}
 	}
@@ -15,7 +15,7 @@ func reverseVowels(s string) string {
 	temp := []byte(s)
 
 	for i, v := range s {
-		if containsInArr(vowels, byte(v)) {
+		if containsByteInArr(vowels, byte(v)) {
 			temp[i] = sVowels[k]
 			k--
 		}
@@ -24,7 +24,7 @@ func reverseVowels(s string) string {
 	return string(temp)
 }
 
-func containsInArr(arr []byte, b byte) bool {
+func containsByteInArr(arr []byte, b byte) bool {
 	for _, v := range arr {
 		if v == b {
 			return true

@@ -3,8 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	nums1 := []int{1, 2, 2}
 
-	nums := []int{0, 1, 0, 3, 12}
-	moveZeroes(nums)
-	fmt.Println(nums)
+	fmt.Println(uniqueOccurrences(nums1))
 }
