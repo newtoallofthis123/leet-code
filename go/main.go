@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(minOperationsBox("001011"))
+	fmt.Println(mergeInterval([][]int{{1, 4}, {0, 0}}))
 }
