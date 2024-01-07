@@ -3,5 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(mergeInterval([][]int{{1, 4}, {0, 0}}))
+	fmt.Println(maxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7}))
+	// fmt.Println(maxArea([]int{1, 1}))
 }
