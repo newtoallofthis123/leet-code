@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(maxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7}))
-	// fmt.Println(maxArea([]int{1, 1}))
+	nums := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
+
+	fmt.Println(removeDuplicates(nums))
+
+	fmt.Println(nums)
 }

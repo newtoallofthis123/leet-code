@@ -2,7 +2,7 @@ package main
 
 import "strings"
 
-func lengthOfLongestSubstring(s string) int {
+func LengthOfLongestSubstring(s string) int {
 	var maxLen int
 
 	for i := 0; i < len(s); i++ {

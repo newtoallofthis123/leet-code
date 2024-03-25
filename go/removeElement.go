@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func removeElement(nums []int, val int) int {
 
 	i := 0
@@ -12,14 +10,13 @@ func removeElement(nums []int, val int) int {
 		i++
 	}
 
-	nums = moveToStart(nums)
-	fmt.Println(nums)
+	moveToStart(nums)
 
 	return len(nums)
 }
 
 // remove all empty elements from the array
-func moveToStart(nums []int) []int {
+func moveToStart(nums []int) {
 	i := 0
 	for i < len(nums) {
 		if nums[i] == -1 {
@@ -28,8 +25,6 @@ func moveToStart(nums []int) []int {
 			i++
 		}
 	}
-
-	return nums
 }
 
 // https://leetcode.com/problems/remove-element/submissions/1127594657/
